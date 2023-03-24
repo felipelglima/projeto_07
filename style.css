@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#jardim{
+    width: 100%;
+    height: auto;
+}
+
+#buraco1{
+    position: absolute;
+
+    top: 30%;
+    left: 10%;
+}
+
+#buraco2{
+    position: absolute;
+
+    top: 30%;
+    left: 30%;
+}
+
+#buraco3{
+    position: absolute;
+
+    top: 30%;
+    left: 50%;
+}
+
+#buraco4{
+    position: absolute;
+
+    top: 30%;
+    left: 70%;
+}
+
+#buraco5{
+    position: absolute;
+
+    top: 60%;
+    left: 10%;
+}
+
+#buraco6{
+    position: absolute;
+
+    top: 60%;
+    left: 30%;
+}
+
+#buraco7{
+    position: absolute;
+
+    top: 60%;
+    left: 50%;
+}
+
+#buraco8{
+    position: absolute;
+
+    top: 60%;
+    left: 70%;
+}
+
+#buraco9{
+    position: absolute;
+
+    top: 90%;
+    left: 10%;
+}
+
+#buraco10{
+    position: absolute;
+
+    top: 90%;
+    left: 30%;
+}
+
+#buraco11{
+    position: absolute;
+
+    top: 90%;
+    left: 50%;
+}
+
+#buraco12{
+    position: absolute;
+
+    top: 90%;
+    left: 70%;
+}
+
+#toupeira1, #toupeira2, #toupeira3, #toupeira4, #toupeira5{
+    position: absolute;
+
+    top: 60%;
+    left: 30%;
+
+    z-index: -1;
+}
+
+#toupeira6, #toupeira7, #toupeira8, #toupeira9, #toupeira10{
+    position: absolute;
+
+    top: 90%;
+    left: 50%;
+
+    z-index: -1;
+}
+
+#toupeira11, #toupeira12, #toupeira13, #toupeira14, #toupeira15{
+    position: absolute;
+
+    top: 30%;
+    left: 70%;
+
+    z-index: -1;
+}
+
+@keyframes toupeira{
+    0%{
+        z-index: -1;
+    }
+    50%{
+        z-index: 0;
+    }
+    100%{
+        z-index: -1;
+    }
+}
+
+#toupeira1{
+    animation: toupeira 250ms 3s;
+}
+
+#toupeira2{
+    animation: toupeira 250ms 3.125s;
+}
+
+#toupeira3{
+    animation: toupeira 250ms 3.25s;
+}
+
+#toupeira4{
+    animation: toupeira 250ms 3.375s;
+}
+
+#toupeira5{
+    animation: toupeira 250ms 3.5s;
+
+}
+
+#toupeira6{
+    animation: toupeira 250ms 6s;
+}
+
+#toupeira7{
+    animation: toupeira 250ms 6.125s;
+}
+
+#toupeira8{
+    animation: toupeira 250ms 6.25s;
+}
+
+#toupeira9{
+    animation: toupeira 250ms 6.375s;
+}
+
+#toupeira10{
+    animation: toupeira 250ms 6.5s;
+
+}
+
+#toupeira11{
+    animation: toupeira 250ms 9s;
+}
+
+#toupeira12{
+    animation: toupeira 250ms 9.125s;
+}
+
+#toupeira13{
+    animation: toupeira 250ms 9.25s;
+}
+
+#toupeira14{
+    animation: toupeira 250ms 9.375s;
+}
+
+#toupeira15{
+    animation: toupeira 250ms 9.5s;
+
+}
